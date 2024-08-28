@@ -4,6 +4,7 @@
   "homepage": "https://tansuz.github.io/oikari1-portfolio",
   "private": true,
   "dependencies": {
+    "@nextui-org/input": "^2.2.4",
     "@nextui-org/react": "^2.4.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

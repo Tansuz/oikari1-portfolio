@@ -15,16 +15,16 @@ const Navbar = () => {
   return (
     <div className='NavbarContainer'>
       <div className='LinkContainer'>
-        <Link id='custom' to='about' smooth={true} offset={-100}>
+        <Link id='custom' to='about'offset={-100}>
           About
         </Link>
-        <Link id='custom' to='skills' smooth={true} offset={-100}>
+        <Link id='custom' to='skills'offset={-100}>
           Skills
         </Link>
-        <Link id='custom' to='projects' smooth={true} offset={-100}>
+        <Link id='custom' to='projects'offset={-100}>
           Projects
         </Link>
-        <Link id='custom' to='contact' smooth={true} offset={-100}>
+        <Link id='custom' to='contact' offset={-100}>
           Contact
         </Link>
         <Dropdown show={show}>
