@@ -5,14 +5,14 @@ import { Formik } from 'formik'
 // Styling & bootstrap & NextUI
 import './Form.scss'
 import { Button } from 'react-bootstrap'
-import { Input, Textarea } from '@nextui-org/react'
+//import { Input, Textarea } from '@nextui-org/input'
 
 const Form = () => {
   // eslint-disable-next-line 
   const [send, setSend] = useState(false)
 
-  const handleClickSend = async (values) => {
-    return "Kiitos"
+  const handleClickSend = () => {
+    return setSend(!send)
   }
 
   return (
@@ -49,7 +49,7 @@ const Form = () => {
           ? ({ values, errors, touched, handleChange, handleBlur, handleSubmit }) => (
               <div className='TextAreaContainer'>
                 <form onSubmit={handleSubmit}>
-                  <Input
+                  <input
                     type='text'
                     name='name'
                     onChange={handleChange}
@@ -60,7 +60,7 @@ const Form = () => {
                     aria-label='Name'
                   />
                   {errors.name && touched.name && errors.name}
-                  <Input
+                  <input
                     type='email'
                     name='email'
                     onChange={handleChange}
@@ -71,7 +71,7 @@ const Form = () => {
                     aria-label='Email'
                   />
                   {errors.email && touched.email && errors.email}
-                  <Input
+                  <input
                     type='text'
                     name='phone'
                     onChange={handleChange}
@@ -82,7 +82,7 @@ const Form = () => {
                     aria-label='phone'
                   />
                   {errors.phone && touched.phone && errors.phone}
-                  <Textarea
+                  <textarea
                     type='text'
                     name='message'
                     onChange={handleChange}
