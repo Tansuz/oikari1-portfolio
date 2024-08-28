@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oikari1-portfolio/static/css/main.a1d4e4a0.css",
-    "main.js": "/oikari1-portfolio/static/js/main.7f1e7785.js",
+    "main.css": "/oikari1-portfolio/static/css/main.363a94f9.css",
+    "main.js": "/oikari1-portfolio/static/js/main.f15b17fb.js",
     "static/media/sample.mp4": "/oikari1-portfolio/static/media/sample.d4e9b37fe96c76bb12e2.mp4",
     "static/media/taneli.png": "/oikari1-portfolio/static/media/taneli.84429f30bf1f8735e904.png",
     "static/media/typing_game.jpg": "/oikari1-portfolio/static/media/typing_game.64e8e32eee03a18a9e51.jpg",
@@ -14,11 +14,11 @@
     "static/media/linkedin.svg": "/oikari1-portfolio/static/media/linkedin.787aa301244425e7fe5bdcff7917892f.svg",
     "static/media/email.svg": "/oikari1-portfolio/static/media/email.ee21e7aaaee8440e72e818b48f781d62.svg",
     "static/media/hamburger.svg": "/oikari1-portfolio/static/media/hamburger.4de0b64b468d9cdbdd41f4d490765099.svg",
-    "main.a1d4e4a0.css.map": "/oikari1-portfolio/static/css/main.a1d4e4a0.css.map",
-    "main.7f1e7785.js.map": "/oikari1-portfolio/static/js/main.7f1e7785.js.map"
+    "main.363a94f9.css.map": "/oikari1-portfolio/static/css/main.363a94f9.css.map",
+    "main.f15b17fb.js.map": "/oikari1-portfolio/static/js/main.f15b17fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d4e4a0.css",
-    "static/js/main.7f1e7785.js"
+    "static/css/main.363a94f9.css",
+    "static/js/main.f15b17fb.js"
   ]
 }
