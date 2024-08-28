@@ -1,0 +1,123 @@
+@import './../../variables.scss';
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+
+  h3 {
+    font-family: $basicFont;
+    color: rgb(231, 222, 222);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.6;
+  }
+
+  h1 {
+      color: #e7dede;
+      font-family: $basicFont;
+      margin-bottom: 36px;
+  }
+
+  h5 {
+    color: #e7dede;
+    margin-bottom: 32px;
+    font-family: $basicFont;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  p {
+    color: red;
+    font-family: $basicFont;
+    margin-top: 4px;
+    text-align: center;
+  }
+
+  .TextAreaContainer {
+    display: flex;
+    max-width: 420px;
+
+    h6 {
+      margin-bottom: 5px;
+      font-family: $basicFont;
+      color: rgb(231, 222, 222);
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .input {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 12px;
+      }
+    }
+
+    .nextui-c-hzQjrs-hyKnjc-asPlaceholder-true {
+      color: red !important;
+    }
+  }
+
+  #SubmitButton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 24px;
+
+    button {
+      width: 80px;
+      background-color: grey;
+      border-color: grey;
+    }
+  }
+}
+
+@media only screen and (max-width: $basicSize) {
+  .FormContainer {
+    width: 90%;
+
+    h5 {
+      font-size: 14px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .TextAreaContainer form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+    }
+
+    .TextAreaContainer h6 {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      font-family: josefin sans;
+      color: #e7dede;
+      width: 90%;
+      text-align: center;
+    }
+
+    h3 { 
+      font-size: 20px;
+      line-height: 1.6;
+    }
+  }
+}
